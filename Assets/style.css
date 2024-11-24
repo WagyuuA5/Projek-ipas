@@ -1,0 +1,171 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+.slide {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.slide-1 {
+  background: linear-gradient(135deg, #feca2f 50%, #000 50%);
+  color: #fff;
+}
+
+.slide-2 {
+  background: #000; /* Background color black */
+  color: #fff; /* Font color  white */
+}
+
+
+.slide-3 {
+  background: #000; /* Background color black */
+  color: #fff; /* Font color  white */
+}
+
+.slide-4 {
+  background: #000; /* Background color  black */
+  color: #fff; /* Font color white */
+}
+
+.slide-5 {
+  background: #000; /* Background color  black */
+  color: #fff; /* Font color white */
+}
+
+/* Content Styling */
+.content {
+  z-index: 1;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.logo-container img {
+  width: 80px;
+  height: auto;
+}
+
+.main-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  color: #f1c40f; /* Yellow title */
+}
+
+.subtitle {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0 20px 0;
+  color: #fff;
+}
+
+.submitted-by {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+  color: #bbb; /* Light gray for the author */
+}
+
+.description {
+  font-size: 20px;
+  margin: 20px 0;
+  color: #ffffff;
+}
+
+.video-container {
+  margin-top: 20px;
+}
+
+video {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  aspect-ratio: 16 / 9; /* Ubah ukuran video menjadi persegi panjang */
+  background: #000; /* Background color  black */
+  color: #fff; /* Font color white */
+}
+
+/* Tambahkan styling untuk elemen baru */
+.text-block {
+  margin-top: 20px;
+}
+
+.text-block p {
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #feca2f; /* Ubah warna garis pinggir lurus menjadi kuning */
+}
+
+.table thead tr {
+  background-color: #f1c40f; /* Yellow background for the header */
+  color: #000; /* Black font color for the header */
+  border-bottom: 2px solid #feca2f; /* Ubah warna garis pinggir lurus menjadi kuning */
+}
+
+.table thead th {
+  padding: 10px;
+  text-align: left;
+  border-right: 1px solid #feca2f; /* Ubah warna garis pinggir lurus menjadi kuning */
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #feca2f; /* Ubah warna garis pinggir lurus menjadi kuning */
+}
+
+.table tbody td {
+  padding: 10px;
+  text-align: left;
+  border-right: 1px solid #feca2f; /* Ubah warna garis pinggir lurus menjadi kuning */
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #000000; /* Light gray background for even rows */
+}
+
+/* Tambahkan styling untuk tabel anggota kelompok */
+.table tbody tr td {
+  border-right: none; /* Remove right border for table data cells */
+}
+
+.table tbody tr td:last-child {
+  border-right: 1px solid #feca2f; /* Ubah warna garis pinggir lurus menjadi kuning */
+}
+
+/* Tambahkan garis-garis untuk memberikan jarak pada tabel anggota kelompok */
+.table {
+  border-spacing: 0 10px; /* Tambahkan jarak antar baris */
+}
+
+.table thead tr, .table tbody tr {
+  border-bottom: 2px solid #feca2f; /* Ubah warna garis pinggir lurus menjadi kuning */
+}
+
+/* Tambahkan garis antara nama dan posisi dengan warna kuning */
+.table tbody tr td:first-child {
+  border-right: 2px solid #feca2f; /* Tambahkan garis antara nama dan posisi dengan warna kuning */
+}
